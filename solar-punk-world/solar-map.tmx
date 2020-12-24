@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="2020.12.18" orientation="orthogonal" renderorder="right-down" width="100" height="100" tilewidth="32" tileheight="32" infinite="1" nextlayerid="4" nextobjectid="1">
+ <tileset firstgid="1" source="05_chairs_purple.tsx"/>
+ <tileset firstgid="5" name="04_dustbin" tilewidth="32" tileheight="32" tilecount="1" columns="1">
+  <image source="../../../Downloads/starter-kit-2d-world-rc3-master/starter-kit-2d-world-rc3-master/tiles_png/community/cert/imgs/furniture/04_dustbin.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="6" name="22_tisch_weiss_2" tilewidth="32" tileheight="32" tilecount="9" columns="3">
+  <image source="../../../Downloads/starter-kit-2d-world-rc3-master/starter-kit-2d-world-rc3-master/tiles_png/community/cert/imgs/furniture/22_tisch_weiss_2.png" width="96" height="96"/>
+ </tileset>
+ <layer id="2" name="start" width="100" height="100">
+  <data encoding="csv"/>
+ </layer>
+ <objectgroup id="3" name="floorLayer"/>
+</map>
